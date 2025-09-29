@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shan Baba - 多国籍料理レストラン</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Shan Baba</h2>
+                <span class="halal-badge">HALAL</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">ホーム</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">私たちについて</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">メニュー</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">ギャラリー</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Shan Baba</h1>
+            <p class="hero-subtitle">多国籍料理の旅へようこそ</p>
+            <p class="hero-description">本格的なハラル料理と多様な文化の味をお楽しみください</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">メニューを見る</a>
+                <a href="#contact" class="btn btn-secondary">予約する</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="pics/8.png" alt="Shan Baba Restaurant" class="hero-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>私たちについて</h2>
+                <p>Shan Babaの物語</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>多様な文化の味を一つに</h3>
+                    <p>Shan Babaでは、中東、アジア、ヨーロッパの伝統的な料理を現代的なアプローチでお届けしています。すべての料理はハラル認証を受けており、様々な文化背景を持つお客様に安心してお楽しみいただけます。</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-certificate"></i>
+                            <h4>ハラル認証</h4>
+                            <p>すべての食材と調理過程がハラル基準に準拠</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-globe-asia"></i>
+                            <h4>多国籍料理</h4>
+                            <p>世界中の伝統的な味を一つの場所で</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h4>心を込めた料理</h4>
+                            <p>家族の味を大切にした本格的な料理</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="pics/11.png" alt="Restaurant Interior" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>メニュー</h2>
+                <p>厳選された多国籍料理</p>
+            </div>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">すべて</button>
+                <button class="category-btn" data-category="middle-eastern">中東料理</button>
+                <button class="category-btn" data-category="asian">アジア料理</button>
+                <button class="category-btn" data-category="european">ヨーロッパ料理</button>
+                <button class="category-btn" data-category="desserts">デザート</button>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item" data-category="middle-eastern">
+                    <div class="menu-item-image">
+                        <img src="pics/ChatGPT Image 2025年4月21日 17_41_41.png" alt="Middle Eastern Dish">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>ケバブプレート</h3>
+                        <p>本格的な中東風ケバブと新鮮な野菜の組み合わせ</p>
+                        <span class="price">¥1,800</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="middle-eastern">
+                    <div class="menu-item-image">
+                        <img src="pics/ChatGPT Image 2025年4月21日 17_41_41-preview.png" alt="Middle Eastern Dish">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>フムスとピタブレッド</h3>
+                        <p>自家製フムスと温かいピタブレッドの伝統的な組み合わせ</p>
+                        <span class="price">¥1,200</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="asian">
+                    <div class="menu-item-image">
+                        <img src="pics/8.png" alt="Asian Dish">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>ビリヤニライス</h3>
+                        <p>香り高いスパイスと柔らかい肉の本格ビリヤニ</p>
+                        <span class="price">¥1,500</span>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="european">
+                    <div class="menu-item-image">
+                        <img src="pics/11.png" alt="European Dish">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>地中海風パスタ</h3>
+                        <p>新鮮なトマトとオリーブオイルのシンプルなパスタ</p>
+                        <span class="price">¥1,300</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>ギャラリー</h2>
+                <p>私たちの料理と空間</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="pics/8.png" alt="Restaurant Food" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="pics/11.png" alt="Restaurant Interior" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="pics/ChatGPT Image 2025年4月21日 17_41_41.png" alt="Middle Eastern Cuisine" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="pics/ChatGPT Image 2025年4月21日 17_41_41-preview.png" alt="Traditional Food" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>お問い合わせ</h2>
+                <p>ご予約・お問い合わせはこちら</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>住所</h4>
+                            <p>東京都渋谷区道玄坂1-2-3<br>Shan Baba Building 2F</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>電話番号</h4>
+                            <p>03-1234-5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>メール</h4>
+                            <p>info@shanbaba.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>営業時間</h4>
+                            <p>月〜日: 11:00 - 22:00<br>定休日: なし</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="お名前" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="メールアドレス" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="電話番号">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">人数を選択</option>
+                                <option value="1-2">1-2名</option>
+                                <option value="3-4">3-4名</option>
+                                <option value="5-6">5-6名</option>
+                                <option value="7+">7名以上</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="datetime-local" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="メッセージ（アレルギー等）" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">予約を送信</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Shan Baba</h3>
+                    <p>多国籍料理で世界の味を体験してください</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>クイックリンク</h4>
+                    <ul>
+                        <li><a href="#home">ホーム</a></li>
+                        <li><a href="#about">私たちについて</a></li>
+                        <li><a href="#menu">メニュー</a></li>
+                        <li><a href="#contact">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>営業時間</h4>
+                    <p>月〜日: 11:00 - 22:00</p>
+                    <p>定休日: なし</p>
+                </div>
+                <div class="footer-section">
+                    <h4>お問い合わせ</h4>
+                    <p>03-1234-5678</p>
+                    <p>info@shanbaba.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Shan Baba. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
