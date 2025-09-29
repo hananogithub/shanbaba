@@ -1,0 +1,388 @@
+/* Contact Page Specific Styles */
+
+/* Page Hero */
+.page-hero {
+    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);
+    color: white;
+    padding: 120px 0 80px;
+    text-align: center;
+}
+
+.page-hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.page-hero-content p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 5rem 0;
+    background: #f8f9fa;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.contact-info h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.contact-methods {
+    margin-bottom: 3rem;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.contact-method:hover {
+    transform: translateY(-3px);
+}
+
+.method-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.method-icon i {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.method-content h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.method-content p {
+    font-size: 1.1rem;
+    color: #d4af37;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.method-content small {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.method-content a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.method-content a:hover {
+    text-decoration: underline;
+}
+
+.store-hours {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.store-hours h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.hours-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.hours-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.hours-item:last-child {
+    border-bottom: none;
+}
+
+.day {
+    font-weight: 500;
+    color: #333;
+}
+
+.time {
+    color: #d4af37;
+    font-weight: 500;
+}
+
+/* Contact Form */
+.contact-form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.required {
+    color: #e74c3c;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #d4af37;
+}
+
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.checkbox-label a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.checkbox-label a:hover {
+    text-decoration: underline;
+}
+
+.submit-btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.submit-btn i {
+    font-size: 1rem;
+}
+
+/* Map Section */
+.map-section {
+    padding: 4rem 0;
+    background: white;
+}
+
+.map-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.map-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.map-placeholder {
+    height: 400px;
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.map-placeholder i {
+    font-size: 3rem;
+    color: #d4af37;
+    margin-bottom: 1rem;
+}
+
+.map-placeholder p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.map-placeholder small {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 4rem 0;
+    background: #f8f9fa;
+}
+
+.faq-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.faq-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-3px);
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.faq-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page-hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-method {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .method-icon {
+        margin-bottom: 1rem;
+    }
+
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .map-placeholder {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-hero {
+        padding: 100px 0 60px;
+    }
+
+    .page-hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form-container,
+    .contact-method,
+    .faq-item {
+        padding: 1.5rem;
+    }
+
+    .store-hours {
+        padding: 1.5rem;
+    }
+}

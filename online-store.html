@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オンラインストア - Shan Baba</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/online-store.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Shan Baba</h2>
+                <span class="halal-badge">HALAL</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">ホーム</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="restaurants.html" class="nav-link">レストラン / Branch</a>
+                    <div class="dropdown-content">
+                        <a href="restaurants.html#shinjuku">Shan Baba 新宿</a>
+                        <a href="restaurants.html#shibuya">Shan Baba 渋谷</a>
+                        <a href="restaurants.html#ginza">Shan Baba 銀座</a>
+                        <a href="restaurants.html#roppongi">Shan Baba 六本木</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="online-store.html" class="nav-link active">オンラインストア</a>
+                    <div class="dropdown-content">
+                        <a href="#ready-made">調理済み食品</a>
+                        <a href="#spices">スパイス</a>
+                        <a href="#beverages">お茶・飲料</a>
+                        <a href="#special">限定商品</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">Shan Babaについて</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>オンラインストア</h1>
+                <p>本格を自宅で気軽に。都内で20年の歴史をもつ本格レストランから直送</p>
+                <div class="hero-cta">
+                    <a href="#ready-made" class="btn btn-primary">商品を見る</a>
+                    <a href="#shipping" class="btn btn-secondary">配送について</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Navigation -->
+    <section class="category-nav">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="ready-made">調理済み食品</button>
+                <button class="category-tab" data-category="spices">スパイス</button>
+                <button class="category-tab" data-category="beverages">お茶・飲料</button>
+                <button class="category-tab" data-category="special">限定商品</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready-Made Foods Section -->
+    <section id="ready-made" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>調理済み食品 / Ready-Made Foods</h2>
+                <p>レストランで人気の料理を自宅でお楽しみください</p>
+            </div>
+
+            <!-- Popular Set Box -->
+            <div class="product-category">
+                <h3>人気セットBox / Popular Set Box</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="pics/8.png" alt="中東料理セット">
+                            <div class="product-badge">人気</div>
+                        </div>
+                        <div class="product-content">
+                            <h4>中東料理セット</h4>
+                            <p>ケバブ、フムス、ピタブレッドのセット</p>
+                            <div class="product-price">
+                                <span class="price">¥2,800</span>
+                                <span class="original-price">¥3,200</span>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">カートに追加</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="pics/11.png" alt="アジア料理セット">
+                            <div class="product-badge">新商品</div>
+                        </div>
+                        <div class="product-content">
+                            <h4>アジア料理セット</h4>
+                            <p>ビリヤニ、カレー、ナンのセット</p>
+                            <div class="product-price">
+                                <span class="price">¥2,500</span>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">カートに追加</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="pics/ChatGPT Image 2025年4月21日 17_41_41.png" alt="多国籍料理セット">
+                        </div>
+                        <div class="product-content">
+                            <h4>多国籍料理セット</h4>
+                            <p>世界各国の料理を楽しめるセット</p>
+                            <div class="product-price">
+                                <span class="price">¥3,500</span>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">カートに追加</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curry Section -->
+            <div class="product-category">
+                <h3>カレー / Curry</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="pics/ChatGPT Image 2025年4月21日 17_41_41-preview.png" alt="チキンカレー">
+                        </div>
+                        <div class="product-content">
+                            <h4>チキンカレー</h4>
+                            <p>本格的なスパイスで仕上げたチキンカレー</p>
+                            <div class="product-price">
+                                <span class="price">¥1,200</span>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">カートに追加</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="pics/8.png" alt="ラムカレー">
+                        </div>
+                        <div class="product-content">
+                            <h4>ラムカレー</h4>
+                            <p>柔らかいラム肉を使った本格カレー</p>
+                            <div class="product-price">
+                                <span class="price">¥1,500</span>
+                            </div>
+                            <button class="btn btn-primary add-to-cart">カートに追加</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spices Section -->
+    <section id="spices" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>スパイス / Spices</h2>
+                <p>本格的なスパイスで料理の味を格上げ</p>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pics/halal-logo-vector-21105238-removebg-preview.png" alt="ガラムマサラ">
+                    </div>
+                    <div class="product-content">
+                        <h4>ガラムマサラ</h4>
+                        <p>インド料理に欠かせない基本のスパイスミックス</p>
+                        <div class="product-price">
+                            <span class="price">¥800</span>
+                        </div>
+                        <button class="btn btn-primary add-to-cart">カートに追加</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pics/8.png" alt="クミン">
+                    </div>
+                    <div class="product-content">
+                        <h4>クミン</h4>
+                        <p>香り高いクミンパウダー</p>
+                        <div class="product-price">
+                            <span class="price">¥600</span>
+                        </div>
+                        <button class="btn btn-primary add-to-cart">カートに追加</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pics/11.png" alt="ターメリック">
+                    </div>
+                    <div class="product-content">
+                        <h4>ターメリック</h4>
+                        <p>鮮やかな黄色のターメリックパウダー</p>
+                        <div class="product-price">
+                            <span class="price">¥500</span>
+                        </div>
+                        <button class="btn btn-primary add-to-cart">カートに追加</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beverages Section -->
+    <section id="beverages" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>お茶・飲料 / Tea & Beverages</h2>
+                <p>本格的なお茶と飲み物をお楽しみください</p>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pics/ChatGPT Image 2025年4月21日 17_41_41.png" alt="セイロンティー">
+                    </div>
+                    <div class="product-content">
+                        <h4>セイロンティー</h4>
+                        <p>スリランカ産の高品質セイロンティー</p>
+                        <div class="product-price">
+                            <span class="price">¥1,200</span>
+                        </div>
+                        <button class="btn btn-primary add-to-cart">カートに追加</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pics/ChatGPT Image 2025年4月21日 17_41_41-preview.png" alt="チャイスパイス">
+                    </div>
+                    <div class="product-content">
+                        <h4>チャイスパイス</h4>
+                        <p>本格的なチャイを作るためのスパイスミックス</p>
+                        <div class="product-price">
+                            <span class="price">¥900</span>
+                        </div>
+                        <button class="btn btn-primary add-to-cart">カートに追加</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Products Section -->
+    <section id="special" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>限定商品 / Special Products</h2>
+                <p>期間限定の特別な商品をお楽しみください</p>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card featured">
+                    <div class="product-image">
+                        <img src="pics/8.png" alt="Shan Babaマンゴー">
+                        <div class="product-badge">限定</div>
+                    </div>
+                    <div class="product-content">
+                        <h4>Shan Babaマンゴー</h4>
+                        <p>厳選された最高級マンゴー</p>
+                        <div class="product-price">
+                            <span class="price">¥3,000</span>
+                        </div>
+                        <button class="btn btn-primary add-to-cart">カートに追加</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shipping Info -->
+    <section id="shipping" class="shipping-info">
+        <div class="container">
+            <div class="section-header">
+                <h2>配送について</h2>
+                <p>全国発送対応、安心の配送サービス</p>
+            </div>
+            <div class="shipping-content">
+                <div class="shipping-item">
+                    <i class="fas fa-truck"></i>
+                    <h4>全国発送</h4>
+                    <p>日本全国どこでもお届けします</p>
+                </div>
+                <div class="shipping-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>冷凍配送</h4>
+                    <p>冷凍状態で新鮮なままお届け</p>
+                </div>
+                <div class="shipping-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>安心保証</h4>
+                    <p>品質に問題がある場合は返品対応</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Shan Baba</h3>
+                    <p>多国籍料理で世界の味を体験してください</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>クイックリンク</h4>
+                    <ul>
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="restaurants.html">レストラン</a></li>
+                        <li><a href="online-store.html">オンラインストア</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>配送について</h4>
+                    <p>毎週火曜日・金曜日出荷</p>
+                    <p>前日正午までにご注文ください</p>
+                </div>
+                <div class="footer-section">
+                    <h4>お問い合わせ</h4>
+                    <p>03-1234-5678</p>
+                    <p>info@shanbaba.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Shan Baba. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/online-store.js"></script>
+</body>
+</html>

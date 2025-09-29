@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shan Baba - 多国籍料理レストラン</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -18,19 +19,34 @@
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">ホーム</a>
+                    <a href="index.html" class="nav-link active">ホーム</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="restaurants.html" class="nav-link">レストラン / Branch</a>
+                    <div class="dropdown-content">
+                        <a href="restaurants.html#shinjuku">Shan Baba 新宿</a>
+                        <a href="restaurants.html#shibuya">Shan Baba 渋谷</a>
+                        <a href="restaurants.html#ginza">Shan Baba 銀座</a>
+                        <a href="restaurants.html#roppongi">Shan Baba 六本木</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="online-store.html" class="nav-link">オンラインストア</a>
+                    <div class="dropdown-content">
+                        <a href="online-store.html#ready-made">調理済み食品</a>
+                        <a href="online-store.html#spices">スパイス</a>
+                        <a href="online-store.html#beverages">お茶・飲料</a>
+                        <a href="online-store.html#special">限定商品</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">私たちについて</a>
+                    <a href="about.html" class="nav-link">Shan Babaについて</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu" class="nav-link">メニュー</a>
+                    <a href="news.html" class="nav-link">News</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#gallery" class="nav-link">ギャラリー</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">お問い合わせ</a>
+                    <a href="contact.html" class="nav-link">お問い合わせ</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -298,6 +314,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/home.js"></script>
 </body>
 </html>
