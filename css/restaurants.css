@@ -25,6 +25,13 @@
     background: #f8f9fa;
 }
 
+.restaurant-single {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .restaurant-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
