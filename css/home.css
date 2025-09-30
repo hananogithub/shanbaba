@@ -12,13 +12,15 @@
 .hero .container {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .hero-content {
     flex: 1;
-    padding: 0 20px;
-    max-width: 600px;
+    padding: 0;
 }
 
 .hero-title {
@@ -54,14 +56,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0;
 }
 
 .hero-img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 }
 
 /* About Section */
@@ -352,7 +356,7 @@
     
     .hero-image {
         max-width: 100%;
-        padding: 20px;
+        padding: 0;
     }
 
     .hero-title {
