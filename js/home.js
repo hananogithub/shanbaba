@@ -223,11 +223,11 @@ if (contactForm) {
 
 // Initialize page
 document.addEventListener('DOMContentLoaded', () => {
-    // Add fade-in animation to hero content
-    const heroContent = document.querySelector('.hero-content');
-    if (heroContent) {
-        heroContent.classList.add('fade-in-up');
-    }
+    // Add fade-in animation to hero content - DISABLED to fix image display
+    // const heroContent = document.querySelector('.hero-content');
+    // if (heroContent) {
+    //     heroContent.classList.add('fade-in-up');
+    // }
     
     // Add loading animation to menu items
     const menuItems = document.querySelectorAll('.menu-item');

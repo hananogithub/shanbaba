@@ -67,16 +67,16 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Page transition animation
-document.addEventListener('DOMContentLoaded', () => {
-    const pageContent = document.querySelector('body');
-    if (pageContent) {
-        pageContent.classList.add('page-transition');
-        setTimeout(() => {
-            pageContent.classList.add('loaded');
-        }, 100);
-    }
-});
+// Page transition animation - DISABLED to fix image display issue
+// document.addEventListener('DOMContentLoaded', () => {
+//     const pageContent = document.querySelector('body');
+//     if (pageContent) {
+//         pageContent.classList.add('page-transition');
+//         setTimeout(() => {
+//             pageContent.classList.add('loaded');
+//         }, 100);
+//     }
+// });
 
 // Scroll animations
 const observerOptions = {
@@ -97,27 +97,27 @@ document.querySelectorAll('.card, .restaurant-card, .product-card, .gallery-item
     observer.observe(el);
 });
 
-// Lazy loading for images
-const lazyImages = document.querySelectorAll('img[src]');
-const imageObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            const img = entry.target;
-            img.style.opacity = '0';
-            img.style.transition = 'opacity 0.3s ease';
-            
-            img.onload = () => {
-                img.style.opacity = '1';
-            };
-            
-            imageObserver.unobserve(img);
-        }
-    });
-});
+// Lazy loading for images - DISABLED to fix hero image display issue
+// const lazyImages = document.querySelectorAll('img[src]');
+// const imageObserver = new IntersectionObserver((entries) => {
+//     entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//             const img = entry.target;
+//             img.style.opacity = '0';
+//             img.style.transition = 'opacity 0.3s ease';
+//             
+//             img.onload = () => {
+//                 img.style.opacity = '1';
+//             };
+//             
+//             imageObserver.unobserve(img);
+//         }
+//     });
+// });
 
-lazyImages.forEach(img => {
-    imageObserver.observe(img);
-});
+// lazyImages.forEach(img => {
+//     imageObserver.observe(img);
+// });
 
 // Notification system
 const showNotification = (message, type = 'info') => {

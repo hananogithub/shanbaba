@@ -152,34 +152,14 @@
 .map-container {
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-.map-placeholder {
-    height: 400px;
-    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-}
-
-.map-placeholder i {
-    font-size: 3rem;
-    color: #d4af37;
-    margin-bottom: 1rem;
-}
-
-.map-placeholder p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-}
-
-.map-placeholder small {
-    font-size: 0.9rem;
-    opacity: 0.7;
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 15px;
 }
 
 /* Responsive Design */
@@ -205,7 +185,7 @@
         width: 100%;
     }
 
-    .map-placeholder {
+    .map-container iframe {
         height: 300px;
     }
 }
