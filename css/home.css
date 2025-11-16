@@ -282,8 +282,14 @@
 
 .contact-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 4rem;
+    justify-items: center;
+}
+
+.contact-info {
+    width: 100%;
+    max-width: 700px;
 }
 
 .contact-item {
